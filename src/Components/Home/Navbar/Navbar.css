@@ -1,0 +1,28 @@
+.navbar-container {
+    background-color: #060713;
+    border-bottom: 4px solid #141b5a;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar a {
+    color: #fff !important;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+.navbar a:hover {
+    color: #ec0086 !important;
+}
+.navbar .active {
+    color: #ec0086 !important;
+    transition: all 0.3s;
+}
+.nav-link.active::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #ec0086;
+    display: block;
+}

@@ -1,0 +1,17 @@
+.projects {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.projects h2 {
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #fff;
+}
+.title::after {
+    content: '';
+    height: 1px;
+    background-color: #ccd6f6;
+    display: block;
+    position: relative;
+    top: 5px;
+}

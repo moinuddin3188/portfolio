@@ -1,0 +1,9 @@
+.blog-card {
+    border-radius: 5px;
+    background-color: #172a45;
+    color: #fff;
+    height: 390px;
+}
+.blog-card p {
+    font-size: 13px;
+}

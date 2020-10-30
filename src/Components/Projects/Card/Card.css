@@ -1,0 +1,36 @@
+.project-card {
+    border-radius: 5px;
+    background-color: #172a45;
+    color: #fff;
+    height: 450px;
+}
+.project-card p {
+    font-size: 13px;
+}
+.key-tech {
+    font-size: 12px;
+    margin-right: 10px;
+    background-color: #ec0086;
+    border-radius: 4px;
+    padding: 2px 7px;
+}
+.view-detail {
+    border: 1px solid #fff;
+    padding: 8px 18px;
+    background: none;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+.view-detail:hover {
+    background-color: #ec0086;
+    border: 1px solid #ec0086;
+}
+.view-detail:hover .detail-icon {
+    margin-left: 10px;
+}
+.detail-icon {
+    transition: all 0.3s;
+}

@@ -1,0 +1,35 @@
+.header {
+    padding: 6rem 0 8rem 0;
+}
+.header h1 {
+    color: #ebebeb;
+    font-size: 40px;
+    font-weight: 600;
+}
+.button {
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    padding: 14px 29px;
+    background: none;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    border: 2px solid #ec0086;
+    color: #ec0086;
+}
+
+.button:hover .arrow-icon{
+    transform: rotate(90deg);
+}
+
+.arrow-icon {
+    margin-left: 10px;
+    font-size: 13px;
+    transition: all 0.3s;
+}
+

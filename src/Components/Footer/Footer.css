@@ -1,0 +1,49 @@
+.footer {
+    background-color: #060713;
+    padding: 20px 0 1px 0;
+    margin-top: 30px;
+}
+.social-link a {
+    margin: 10px 20px;
+    padding: 13px;
+    height: 55px;
+    width: 57px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+.social-link a:hover {
+    background-color: #ec0086;
+    border-color: #ec0086;
+}
+.social-link .brand-icon {
+    transform: scale(0.9);
+    font-size: 28px;
+    position: relative;
+}
+.social-link a:hover .brand-icon {
+    animation: brandIconAnimation 0.3s forwards;
+}
+
+@keyframes brandIconAnimation {
+    49% {
+        transform: translateY(100%)
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(-100%)
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+.copyright {
+    text-align: center;
+    color: #757575;
+    font-size: 12px;
+    margin-top: 10px;
+}

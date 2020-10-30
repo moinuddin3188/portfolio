@@ -1,0 +1,14 @@
+.react {
+    width: 80%;
+    height: 25px;
+    background-color: #ec0086;
+    animation: progress 2s ease 0.1s;
+}
+@keyframes progress {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
