@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { Nav } from '../../App';
 import { projects } from '../../Fakedata/Fakedata';
 import Card from './Card/Card';
 import './Projects.css';
 
 const Projects = () => {
 
+    const [active, setActive] = useContext(Nav);
     const project = projects;
 
     return (
@@ -19,7 +22,9 @@ const Projects = () => {
                 }
             </div>
             <div className='text-center pt-5'>
-                <button className="button">ALL PROJECTS</button>
+                <Link to='/projects'>
+                    <button onClick={() => setActive('project')} className="button">ALL PROJECTS</button>
+                </Link>
             </div>
         </div>
     );

@@ -1,0 +1,68 @@
+.ReactModal__Content {
+    background-color: #0a192f !important;
+    color: #fff !important;
+    padding: 0 !important;
+    border: 1px solid #1c304d !important;
+    position: relative;
+}
+@media (max-width: 992px) {
+    .ReactModal__Content {
+        width: 70% !important;
+    }
+}
+@media (max-width: 576px) {
+    .ReactModal__Content {
+        width: 90% !important;
+    }
+}
+.ReactModal__Overlay {
+    background-color: #0a192fb2 !important;
+}
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: #ec0086 !important;
+}
+.swiper-button-prev {
+    color: #ec0086 !important;
+}
+.swiper-button-next {
+    color: #ec0086 !important;
+}
+.modal-body {
+    padding: 20px;
+}
+.modal-title {
+    border-bottom: .1px solid #172a45;
+    padding-bottom: 10px;
+}
+.modal-title p {
+    font-weight: 300;
+    color: #999999;
+}
+.modal-title .icon {
+    font-size: 28px;
+    margin-right: 20px;
+}
+.modal-body li {
+    color: #999999;
+}
+.modal-body p {
+    color: #999999;
+}
+.close-btn {
+    border: 2px solid #ec0086;
+    border-radius: 3px;
+    background: none;
+    padding: 3px 10px;
+    color: #ec0086;
+    transition: all 0.2s;
+}
+.close-icon {
+    transition: all 0.2s;
+}
+.close-btn:hover .close-icon {
+    transform: rotate(90deg);
+}

@@ -1,7 +1,9 @@
 export const projects = [
     {
         id: 1,
-        img: 'https://i.imgur.com/56kvQAR.png',
+        slide1: 'https://i.imgur.com/OGZJ0Mm.png',
+        slide2: 'https://i.imgur.com/VioV6q2.png',
+        slide3: 'https://i.imgur.com/TbU3QfN.png',
         title: 'Creative Agency',
         shortDescription: 'An IT service provider platform. Where users can order their required services',
         keyTechnology: ['React', 'JavaScript'],
@@ -18,7 +20,9 @@ export const projects = [
     },
     {
         id: 2,
-        img: 'https://i.imgur.com/eBPfJrN.png',
+        slide1: 'https://i.imgur.com/22geIBI.png',
+        slide2: 'https://i.imgur.com/a2xrUi6.png',
+        slide3: 'https://i.imgur.com/WmWJYi9.png',
         title: 'Volunteer Network',
         shortDescription: 'A volunteer network service management web app. A volunteer can register in multiple volunteering event',
         keyTechnology: ['React', 'MongoDB', 'JavaScript'],
@@ -36,7 +40,9 @@ export const projects = [
     },
     {
         id: 3,
-        img: 'https://i.imgur.com/qVwCuaO.png',
+        slide1: 'https://i.imgur.com/d9wHHuP.png',
+        slide2: 'https://i.imgur.com/BotrFfY.png',
+        slide3: 'https://i.imgur.com/CLqKWNc.png',
         title: 'Red Onion',
         shortDescription: 'An online food delivery service provider web app. User can order their favorite food in this web site.',
         keyTechnology: ['React', 'Bootstrap'],
@@ -51,5 +57,16 @@ export const projects = [
             'Users can order their favorite food by using their credit card.'
         ]
     },
+]
+
+
+export const skills = [
+    {name: 'HTML', class: 'html', percentage: '90%'},
+    {name: 'CSS', class: 'css', percentage: '90%'},
+    {name: 'JavaScript', class: 'java', percentage: '80%'},
+    {name: 'React', class: 'react', percentage: '75%'},
+    {name: 'MongoDB', class: 'mongo', percentage: '70%'},
+    {name: 'Node.js', class: 'node', percentage: '60%'},
+    {name: 'Express.js', class: 'express', percentage: '55%'}
 ]
 

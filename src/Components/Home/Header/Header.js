@@ -30,7 +30,9 @@ const Header = () => {
                                         ]}
                                     />
                                 </h1>
+                                <a href="https://doc-08-2k-docs.googleusercontent.com/docs/securesc/o7rf6g1gu8r57rvbaj3jqoovlkg3srmv/sttohrpidiim9j9p5kokt4cf9vgj0m9k/1604149200000/05789788809920180185/05789788809920180185/1684Y6dziV-nsMXY7rx5edY6DpGftiPm_?e=download&authuser=0&nonce=bg37rvorofs72&user=05789788809920180185&hash=3be9tud9v6rrcsndr940m1erq01dnl78">
                                 <button className='button mt-4'>Download CV <FontAwesomeIcon className='arrow-icon' icon={faArrowRight} /></button>
+                                </a>
                             </Fade>
                         </div>
                     </div>

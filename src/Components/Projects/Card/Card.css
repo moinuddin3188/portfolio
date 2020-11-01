@@ -34,3 +34,14 @@
 .detail-icon {
     transition: all 0.3s;
 }
+.card-footer a {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.card-footer a .icon {
+    transition: all 0.9s;
+}
+.card-footer a:hover  .icon {
+    transform: rotate(360deg);
+}

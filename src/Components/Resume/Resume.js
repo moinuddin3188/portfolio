@@ -4,10 +4,8 @@ import './Resume.css';
 
 const Resume = () => {
     return (
-        <div className="container-md text-white resume">
-            <div>
-                
-            </div>
+        <div className="container resume">
+            <h1 className="orange text-center">Coming soon.....</h1>
         </div>
     );
 };
